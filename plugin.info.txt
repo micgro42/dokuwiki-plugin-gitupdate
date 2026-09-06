@@ -1,0 +1,7 @@
+base   gitupdate
+author Michael Große
+email  mic.grosse+gitupdate@googlemail.com
+date   2026-09-06
+name   Git Update Check Plugin
+desc   Warns admins when the tracked git branch has new commits. For wikis that run from a git checkout instead of a release.
+url    https://www.dokuwiki.org/plugin:gitupdate
