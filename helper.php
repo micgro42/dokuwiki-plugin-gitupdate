@@ -328,7 +328,7 @@ class helper_plugin_gitupdate extends Plugin
     protected function readGitFile($path)
     {
         // keep the read inside the git directory
-        if (strpos($path, '..') !== false) return '';
+        if (str_contains($path, '..')) return '';
 
         $file = DOKU_INC . '.git/' . $path;
         if (!file_exists($file) || !is_file($file)) return '';
